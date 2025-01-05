@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 
 import logo from '../../images/logo.webp'
 import magnifyingGlass from '../../images/magnifyingGlass.webp'
+import BlackBtn from '../UI/BlackBtn'
 
 type Props = {}
 
@@ -35,7 +36,7 @@ const Header = React.memo(function Header(props: Props) {
                     <img draggable='false' src={magnifyingGlass} alt='magnifyingGlass' />
                     <input type="text" placeholder='Search Art Work / Creator' />
                 </div>
-                <div className={styles.connetcWallet}>CONNETC WALLET</div>
+                <BlackBtn text='CONNETC WALLET' padding='16px 29px' />
             </div>
         </div>
     )
