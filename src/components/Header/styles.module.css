@@ -1,0 +1,83 @@
+.wrapper {
+    width: 1200px;
+    margin: 20px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftContent {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.rowElem {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    >a {
+        text-decoration: none;
+        font-family: 'Inter';
+        text-transform: uppercase;
+
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26.7px;
+        color: rgba(96, 96, 96, 1);
+    }
+}
+
+.rightContent {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.search {
+    position: relative;
+
+    >img {
+        position: absolute;
+        top: 30%;
+        left: 15px;
+
+        width: 21.5px;
+        height: 21.5px;
+
+        cursor: pointer;
+    }
+
+    >input {
+        outline: none;
+
+        border: none;
+        border-radius: 15px;
+
+        background: rgba(237, 237, 237, 1);
+
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        color: rgba(157, 157, 157, 1);
+
+        width: 290px;
+        padding: 19px 15px 19px 45px;
+    }
+}
+
+.connetcWallet {
+    cursor: pointer;
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24.26px;
+    color: rgba(255, 255, 255, 1);
+
+    background: rgba(20, 20, 22, 1);
+    padding: 16px 29px;
+
+    border-radius: 16px;
+}

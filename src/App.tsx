@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css'
 
+import RouterComponent from "./router";
+
 function App() {
   return (
-    <div>
-      Git init
-    </div>
+    <>
+      <RouterComponent />
+    </>
   );
 }
 
