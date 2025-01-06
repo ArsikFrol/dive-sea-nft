@@ -8,4 +8,5 @@
 
     background: rgba(20, 20, 22, 1);
     display: inline-block;
+    text-transform: uppercase;
 }
