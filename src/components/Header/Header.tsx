@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 import logo from '../../images/logo.webp'
 import magnifyingGlass from '../../images/magnifyingGlass.webp'
-import BlackBtn from '../UI/BlackBtn'
+import BlackBtn from '../UI/BlackBtn/BlackBtn'
 
 type Props = {}
 

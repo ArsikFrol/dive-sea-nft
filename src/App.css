@@ -3,3 +3,7 @@
   padding: 0;
   font-family: "Poppins", serif;
 }
+
+*::-webkit-scrollbar {
+  display: none;
+}
