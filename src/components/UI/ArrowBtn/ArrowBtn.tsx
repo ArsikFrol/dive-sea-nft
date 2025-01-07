@@ -17,13 +17,13 @@ const ArrowBtn = React.memo(function ArrowBtn(props: Props) {
                 style={{ width: '26px', height: '26px', rotate: '180deg' }}
                 draggable='false'
                 src={props.activeLeft ? active : notActive}
-                className={styles.left} />
+                className={props.activeLeft ? styles.left : styles.notLeft} />
             <img draggable='false' src={border} alt='border' />
             <img
                 style={{ width: '26px', height: '26px' }}
                 draggable='false'
                 src={props.activeRight ? active : notActive}
-                className={styles.right} />
+                className={props.activeRight ? styles.right : styles.notRight} />
         </div>
     )
 })
