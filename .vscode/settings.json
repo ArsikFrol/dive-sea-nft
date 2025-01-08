@@ -1,0 +1,12 @@
+{
+    "favorites.resources": [
+        {
+            "filePath": "public/db.json",
+            "group": "Default"
+        },
+        {
+            "filePath": "src/pages/HomePage.tsx",
+            "group": "Default"
+        }
+    ]
+}
