@@ -34,7 +34,7 @@ const Header = React.memo(function Header(props: Props) {
             <div className={styles.rightContent}>
                 <div className={styles.search}>
                     <img draggable='false' src={magnifyingGlass} alt='magnifyingGlass' />
-                    <input type="text" placeholder='Search Art Work / Creator' />
+                    <input id="search" autoComplete='search' type="text" placeholder='Search Art Work / Creator' />
                 </div>
                 <BlackBtn text='CONNETC WALLET' padding='16px 29px' />
             </div>
