@@ -1,0 +1,35 @@
+.wrapper {
+    padding-top: 70px;
+    padding-bottom: 750px;
+
+    background: rgba(241, 241, 241, 1);
+    position: relative;
+
+    >div:last-child {
+        width: 96px;
+
+        position: absolute;
+        bottom: 100px;
+        left: 43%;
+    }
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 27px;
+    color: rgba(197, 197, 197, 1);
+
+    width: 395px;
+    margin: 0 auto;
+}
+
+.rowDay {
+    position: absolute;
+    left: -50px;
+    top: 200px;
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

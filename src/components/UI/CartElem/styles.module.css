@@ -1,0 +1,66 @@
+.wrapper {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 11.76px 0 58.81px 0 rgba(199, 199, 199, 0.6);
+
+    padding: 10px;
+    border-radius: 24px;
+
+    position: relative;
+
+    >span:last-child {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21.5px;
+        color: rgba(255, 255, 255, 1);
+
+        background: rgba(28, 29, 32, 0.35);
+        border-radius: 9.5px;
+        border: 1.1px solid rgba(28, 29, 32, 0.08);
+
+        width: 114px;
+        text-align: center;
+        padding: 7px 0;
+
+        position: absolute;
+        right: 20px;
+        top: 20px;
+
+        box-shadow: 0px 5px 14.16px rgba(28, 29, 32, 0.08);
+    }
+}
+
+.title {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 30px;
+    color: rgba(20, 20, 22, 1);
+
+    margin: 10px 0;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nameStat {
+    font-size: px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(148, 163, 184, 1);
+
+    margin-bottom: 5px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+
+    .priceCount {
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 24px;
+        color: rgba(20, 20, 22, 1);
+    }
+}
