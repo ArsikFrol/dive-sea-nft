@@ -1,0 +1,39 @@
+{
+    "user": [
+        {
+            "id": 1,
+            "userName": "Alex",
+            "userImage": "https://img.icons8.com/?size=80&id=wkvPnufIzY2f&format=png"
+        },
+        {
+            "id": 2,
+            "userName": "Dura",
+            "userImage": "https://img.icons8.com/?size=80&id=wkvPnufIzY2f&format=png"
+        },
+        {
+            "id": 3,
+            "userName": "Michal",
+            "userImage": "https://img.icons8.com/?size=80&id=wkvPnufIzY2f&format=png"
+        },
+        {
+            "id": 4,
+            "userName": "Tom",
+            "userImage": "https://img.icons8.com/?size=80&id=wkvPnufIzY2f&format=png"
+        },
+        {
+            "id": 5,
+            "userName": "Jerry",
+            "userImage": "https://img.icons8.com/?size=80&id=wkvPnufIzY2f&format=png"
+        },
+        {
+            "id": 5,
+            "userName": "Jerry",
+            "userImage": "https://img.icons8.com/?size=80&id=wkvPnufIzY2f&format=png"
+        },
+        {
+            "id": 6,
+            "userName": "Duck",
+            "userImage": "https://img.icons8.com/?size=80&id=wkvPnufIzY2f&format=png"
+        }
+    ]
+}
