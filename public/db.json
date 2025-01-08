@@ -35,5 +35,73 @@
             "userName": "Duck",
             "userImage": "https://img.icons8.com/?size=80&id=wkvPnufIzY2f&format=png"
         }
+    ],
+    "collection": [
+        {
+            "id": 1,
+            "title": "Alex Ca.",
+            "volume": 8.56,
+            "24h%": 29.4,
+            "floorPrice": 3.5,
+            "owners": 2.2,
+            "items": 500,
+            "iconCollection": "https://img.icons8.com/?size=48&id=NI5Abz1Uh2IA&format=png",
+            "theCollector": "By Alex"
+        },
+        {
+            "id": 2,
+            "title": "Alex Ca.",
+            "volume": 8.56,
+            "24h%": 29.4,
+            "floorPrice": 3.5,
+            "owners": 2.2,
+            "items": 500,
+            "iconCollection": "https://img.icons8.com/?size=48&id=NI5Abz1Uh2IA&format=png",
+            "theCollector": "By Alex"
+        },
+        {
+            "id": 3,
+            "title": "Alex Ca.",
+            "volume": 8.56,
+            "24h%": 29.4,
+            "floorPrice": 3.5,
+            "owners": 2.2,
+            "items": 500,
+            "iconCollection": "https://img.icons8.com/?size=48&id=NI5Abz1Uh2IA&format=png",
+            "theCollector": "By Alex"
+        },
+        {
+            "id": 4,
+            "title": "Alex Ca.",
+            "volume": 8.56,
+            "24h%": 29.4,
+            "floorPrice": 3.5,
+            "owners": 2.2,
+            "items": 500,
+            "iconCollection": "https://img.icons8.com/?size=48&id=NI5Abz1Uh2IA&format=png",
+            "theCollector": "By Alex"
+        },
+        {
+            "id": 5,
+            "title": "Alex Ca.",
+            "volume": 8.56,
+            "24h%": 29.4,
+            "floorPrice": 3.5,
+            "owners": 2.2,
+            "items": 500,
+            "iconCollection": "https://img.icons8.com/?size=48&id=NI5Abz1Uh2IA&format=png",
+            "theCollector": "By Alex"
+        },
+        {
+            "id": 6,
+            "title": "Alex Ca.",
+            "volume": 8.56,
+            "24h%": 29.4,
+            "floorPrice": 3.5,
+            "owners": 2.2,
+            "items": 500,
+            "iconCollection": "https://img.icons8.com/?size=48&id=NI5Abz1Uh2IA&format=png",
+            "theCollector": "By Alex"
+        }
     ]
 }
