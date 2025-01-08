@@ -10,7 +10,10 @@ function App() {
 
   React.useEffect(() => {
     axios.get('http://localhost:3001/user').then(({ data }) => {
-      dispatch({ type: 'OPENING_WEBSITE', payload: data })
+      dispatch({ type: 'OPENING_WEBSITE_USER', payload: data })
+    })
+    axios.get('http://localhost:3001/collection').then(({ data }) => {
+      dispatch({ type: 'OPENING_WEBSITE_COLLECTION', payload: data })
     })
   }, [])
 
