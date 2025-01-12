@@ -1,0 +1,271 @@
+/* TopCollection */
+
+.wrapper {
+    width: 1200px;
+    margin: 200px auto 100px;
+    padding-bottom: 100px;
+
+    position: relative;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 45px;
+    color: rgba(20, 20, 22, 1);
+
+    text-align: center;
+}
+
+.rowStat {
+    margin-top: 70px;
+    margin-bottom: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    >div {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 29px;
+        color: rgba(147, 152, 154, 1);
+    }
+}
+
+.rightStat {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.exploreAll {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    float: right;
+    margin-top: 20px;
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+    color: rgba(172, 173, 185, 1);
+
+    >img {
+        transition: transform 0.5s ease;
+    }
+}
+
+.exploreAll:hover>img {
+    transform: translateX(5px);
+}
+
+
+
+
+/* RecentViewed */
+
+.recentViewed {
+    position: absolute;
+    top: -300px;
+    right: 0;
+
+    width: 330px;
+    padding: 25px 20px;
+
+    background: rgba(255, 255, 255, 1);
+
+    box-shadow: 10px 10px 50px rgba(20, 20, 22, 0.1);
+    border: 1px solid rgba(237, 242, 247, 1);
+    border-radius: 16px;
+}
+
+.recentTitle {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 28.3px;
+    color: rgba(26, 32, 44, 1);
+
+    margin-bottom: 20px;
+}
+
+.cartRecent {
+    display: flex;
+    align-items: center;
+    width: 315px;
+
+    margin-top: 10px;
+}
+
+.countStat {
+    margin-left: auto;
+}
+
+.iconCollection {
+    width: 46px;
+    height: 46px;
+    position: relative;
+}
+
+.descColl {
+    margin-left: 10px;
+}
+
+.titleColl {
+    font-size: 15.3px;
+    font-weight: 500;
+    line-height: 21.5px;
+    color: rgba(20, 20, 22, 1);
+}
+
+.byColl {
+    font-size: 12.5px;
+    font-weight: 400;
+    line-height: 19px;
+    color: rgba(100, 116, 139, 1);
+}
+
+.efir {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.topCountStat {
+    display: flex;
+    align-items: center;
+
+    font-size: 15.3px;
+    font-weight: 600;
+    line-height: 21.5px;
+    color: rgba(20, 20, 22, 1);
+}
+
+.percentGreen {
+    font-size: 13.5px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(16, 195, 82, 1);
+
+    text-align: right;
+}
+
+.percentRed {
+    font-size: 13.5px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(226, 51, 51, 1);
+
+    text-align: right;
+}
+
+
+/* CartCollection */
+
+.cartWrapper {
+    display: flex;
+    align-items: center;
+
+    padding-bottom: 20px;
+    border-bottom: 1.7px solid rgba(235, 233, 233, 1);
+}
+
+.user {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    width: 450px;
+
+    >img {
+        width: 84px;
+        height: 84px;
+    }
+
+    .userColl {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 39px;
+        color: rgba(20, 20, 22, 1);
+    }
+
+    .byName {
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 34px;
+        color: rgba(100, 116, 139, 1);
+    }
+}
+
+.volume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 120px;
+    text-align: center;
+    margin-right: 30px;
+
+    font-size: 24.5px;
+    font-weight: 600;
+    line-height: 34px;
+    color: rgba(20, 20, 22, 1);
+}
+
+.hoursGreen {
+    width: 130px;
+    text-align: center;
+
+    font-size: 24.5px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(16, 195, 82, 1);
+}
+
+.hoursRed {
+    width: 130px;
+    text-align: center;
+
+    font-size: 24.5px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(226, 51, 51, 1);
+}
+
+.floorPrice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 150px;
+    text-align: center;
+    margin-left: 30px;
+
+    font-size: 24.5px;
+    font-weight: 600;
+    line-height: 34px;
+    color: rgba(20, 20, 22, 1);
+}
+
+.owners {
+    width: 150px;
+    text-align: center;
+    margin-left: 30px;
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    color: rgba(1, 1, 1, 1);
+}
+
+.items {
+    width: 60px;
+    margin-left: 50px;
+    text-align: center;
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    color: rgba(1, 1, 1, 1);
+}
