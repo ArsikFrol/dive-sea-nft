@@ -6,7 +6,7 @@ import CartCollection from './CartCollection'
 
 import arrow from '../UI/ArrowBtn/arrowNotActive.webp'
 import ethereum from '../UI/CartElem/ethereum.webp'
-import RecentViewed from './RecentViewed'
+import RecentViewed from '../UI/RecentViewed/RecentViewed'
 
 type Props = {}
 
